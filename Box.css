@@ -1,0 +1,17 @@
+body{
+    margin: 400px;
+}
+
+#redpart {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 100%;
+    margin: 100px 150px;
+}
+
+#whitepart {
+    height: 300px;
+    width: 400px;
+    border: solid 2px black;
+}

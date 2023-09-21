@@ -1,0 +1,46 @@
+#square{
+    height: 100px;
+    width: 100px;
+    background-color: fuchsia;
+    margin: 100px 150px;
+    border: solid 2px black;
+    padding: 200px;
+}
+
+#rectangle{
+    height: 100px;
+    width: 25px;
+    background-color: crimson;
+    margin: 100px 150px;
+    border: solid 2px black;
+    padding: 70px
+}
+
+#circle{
+    height: 100px;
+    width: 100px;
+    background: blue;
+    margin: 100px 150px;
+    border-radius: 100%;
+    border: solid 2px black;
+    padding: 50px;
+}
+
+#oval{
+    height: 100px;
+    width: 50px;
+    background-color: green;
+    margin: 100px 150px;
+    border-radius: 100%;
+    border: solid 2px black;
+    padding: 30px;
+}
+
+#triangle{
+    margin: 100px 150px;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left: 200px solid yellow;
+    padding: 0px;
+    
+}

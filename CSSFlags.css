@@ -6,19 +6,19 @@ body {
     height: 450px;
     width: 700px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(100, 1fr);
+    grid-template-rows: repeat(100, 1fr);
 }
 #Jwhite {
     background-color: white;
-    grid-column: 1 / 4;
-    grid-row: 1 / 4;
+    grid-column: 1 / 100;
+    grid-row: 1 / 100;
 }
 
 #Jred {
     background-color: red;
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    grid-column: 37 / 63;
+    grid-row: 30 / 70;
     border-radius: 100%;
 }
 
@@ -101,25 +101,102 @@ body {
 #TredUP {
     background-color: red;
     grid-column: 1 / 100;
-    grid-row: 50 / 100;
+    grid-row: 1 / 15;
 }s
 #TwhiteUP {
     background-color: white;
     grid-column: 1 / 100;
-    grid-row: 1 / 100;
+    grid-row: 15 / 30;
 }
 #Tblue {
     background-color: darkblue;
     grid-column: 1 / 100;
-    grid-row: 1 / 100;
+    grid-row: 30 / 70;
 }
 #TwhiteDOWN {
     background-color: white;
     grid-column: 1 / 100;
-    grid-row: 1 / 109;
+    grid-row: 70 / 85;
 }
 #TredDOWN {
     background-color: red;
     grid-column: 1 / 100;
+    grid-row: 85 / 100;
+}
+
+#Sgrid {
+    height: 450px;
+    width: 700px;
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+    grid-template-rows: repeat(100, 1fr);
+}
+#Sred {
+    background-color: red;
+    grid-column: 1 / 100;
     grid-row: 1 / 100;
 }
+#SwhiteVER {
+    background-color: white;
+    grid-column: 43 / 57;
+    grid-row: 20 / 80;
+}
+#SwhiteHOR {
+    background-color: white;
+    grid-column: 29 / 71;
+    grid-row: 40 / 60;
+}
+
+#UAEgrid {
+    height: 450px;
+    width: 700px;
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+    grid-template-rows: repeat(100, 1fr);
+}
+#UAEred {
+    background-color: red;
+    grid-column: 1 / 25;
+    grid-row: 1 / 100;
+}
+#UAEgreen {
+    background-color: green;
+    grid-column: 25 / 100;
+    grid-row: 1 / 33;
+}
+#UAEwhite {
+    background-color: white;
+    grid-column: 25 / 100;
+    grid-row: 33 / 66;
+}
+#UAEblack {
+    background-color: black;
+    grid-column: 25 / 100;
+    grid-row: 66 / 100;
+}
+
+#SWgrid {
+    height: 450px;
+    width: 700px;
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+    grid-template-rows: repeat(100, 1fr);
+}
+#SWblue {
+    background-color: rgb(0, 140, 255);
+    grid-column: 1 / 100;
+    grid-row: 1 / 100;
+}
+#SWyellowVER {
+    background-color: yellow;
+    grid-column: 30 / 45;
+    grid-row: 1 / 100;
+}
+#SWyellowHOR {
+    background-color: yellow;
+    grid-column: 1 / 100;
+    grid-row: 40 / 60;
+}
+
+
+

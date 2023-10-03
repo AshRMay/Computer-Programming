@@ -198,5 +198,49 @@ body {
     grid-row: 40 / 60;
 }
 
+#GreecianGrid {
+    height: 450px;
+    width: 700px;
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+    grid-template-rows: repeat(90, 1fr);
+}
+#Greecianblue {
+    background-color: rgb(0, 115, 255);
+    grid-column: 1 / 100;
+    grid-row: 1 / 90;
+}
+#GwhiteVER {
+    background-color: white;
+    grid-column: 16 / 24;
+    grid-row: 1 /50;
+}
+#GwhiteHOR {
+    background-color: white;
+    grid-column: 1 / 38;
+    grid-row: 20 / 30;
+}
+#Gwhite1 {
+    background-color: white;
+    grid-column: 38 / 100;
+    grid-row: 10 / 20;
+}
+#Gwhite2 {
+    background-color: white;
+    grid-column: 38 / 100;
+    grid-row: 30 / 40;
+}
+#Gwhite3 {
+    background-color: white;
+    grid-column: 1 / 100;
+    grid-row: 50 / 60;
+}
+#Gwhite4 {
+    background-color: white;
+    grid-column: 1 / 100;
+    grid-row: 70 / 80;
+}
+
+
 
 

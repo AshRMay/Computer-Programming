@@ -1,0 +1,78 @@
+header {
+    background-color: purple;
+    height: 20vh;
+    margin: 10px;
+    animation-name:color-swap;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+nav > div {
+    background-color: skyblue;
+    height: 50px;
+    margin: 10px;
+}
+
+footer {
+    background-color: blue;
+    height: 10vh;
+    margin: 10px;
+}
+
+aside {
+    background-color: royalblue;
+    height: 50vh;
+    margin: 10px;
+}
+
+@keyframes color-swap {
+    0% {
+        background-color: purple;
+    }
+    16% {
+        background-color: red;
+    }
+    32% {
+        background-color: orange;
+    }
+    48% {
+        background-color: yellow;
+    }
+    64% {
+        background-color: green;
+    }
+    80% {
+        background-color: blue;
+    }
+    100% {
+        background-color: purple;
+    }
+    from {
+        width: 100%;
+    }
+    to {
+        width: 1%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    header {
+        height: 15vh;
+    }
+    #content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    nav > div {
+        height: 25px;
+        width: 100px;
+    }
+    aside {
+        width: 25vw;
+    }
+
+}

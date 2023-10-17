@@ -1,3 +1,10 @@
+html {
+    background-color: pink;
+    animation-name: color-swap5;
+    animation-duration: 0.50s;
+    animation-iteration-count: infinite;
+}
+
 header {
     background-color: purple;
     height: 20vh;
@@ -13,20 +20,106 @@ nav > div {
     background-color: skyblue;
     height: 50px;
     margin: 10px;
+    animation-name:color-swap3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
 footer {
     background-color: blue;
+    animation-name:color-swap2;
     height: 10vh;
     margin: 10px;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
 }
 
 aside {
     background-color: royalblue;
     height: 50vh;
     margin: 10px;
+    animation-name:color-swap4;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
-
+@keyframes color-swap5 {
+    0% {
+        background-color: purple;
+    }
+    16% {
+        background-color: red;
+    }
+    32% {
+        background-color: orange;
+    }
+    48% {
+        background-color: yellow;
+    }
+    64% {
+        background-color: green;
+    }
+    80% {
+        background-color: blue;
+    }
+    100% {
+        background-color: purple;
+    }
+}
+@keyframes color-swap4 {
+    0% {
+        height: 200px;
+        width: 400px;
+    }
+    50% {
+        height: 200px;
+        width: 400px;
+        border-radius: 20%;
+        background-color: red;
+    }
+    100% {
+        height: 400px;
+        width: 800px;
+        border-radius: 100%;
+        background-color: darkred;
+    }
+}
+@keyframes color-swap3 {
+    0% {
+        background-color: green;
+    }
+    25% {
+        height: 500px;
+        width: 1000px;
+        background-color: black;
+    }
+    50% {
+        height: 780px;
+        width: 47px;
+        background-color: magenta;
+    }
+    75% {
+        height: 1000px;
+        width: 256px;
+        background-color: fuchsia;
+    }
+    100% {
+        height: 1px;
+        width: 400px;s
+        background-color: yellow;
+    }
+}
+@keyframes color-swap2 {
+    0% {
+        background-color: black;
+    }
+    50% {
+        width: 100px;
+    }
+    100% {
+        background-color: darkred;
+        border-radius: 100%;
+    }
+}
 @keyframes color-swap {
     0% {
         background-color: purple;
@@ -73,6 +166,46 @@ aside {
     }
     aside {
         width: 25vw;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+    header {
+        height: 14vh;
+    }
+    #content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    nav > div {
+        height: 40px;
+        width: 120px;
+    }
+    aside {
+        width: 20vw;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    header {
+        height: 20vh;
+    }
+    #content {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    nav > div {
+        height: 50px;
+        width: 160px;
+    }
+    aside {
+        width: 40vw;
     }
 
 }

@@ -3,3 +3,15 @@
     height: 200px;
     width: 200px;
 }
+
+#womp {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
+
+#stopgo {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}

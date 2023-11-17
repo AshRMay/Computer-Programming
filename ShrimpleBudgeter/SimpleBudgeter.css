@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+}
+
+#income {
+    background-color: gold;
+    height: 100px;
+    width: 500px;
+}
+
+::placeholder {
+    color: yellow;
+  }  
+  

@@ -18,10 +18,18 @@ document.getElementById("scammer").addEventListener("paste", function() {
     document.getElementById("scammer").innerHTML = "My guy what are you even trying to paste here...";
 });
 
-document.getElementById("scammer").addEventListener("blur", function() {
-    document.getElementById("scammer").innerHTML = "Now you don't.";
+document.getElementById("womp").addEventListener("contextmenu", function() {
+    document.getElementById("womp").style.backgroundColor = "pink";
+    document.getElementById("womp").style.borderRadius = "100%";
 });
 
+document.getElementById("stopgo").addEventListener("mouseenter", function() {
+    document.getElementById("stopgo").style.backgroundColor = "green";
+});
+
+document.getElementById("stopgo").addEventListener("mouseleave", function() {
+    document.getElementById("stopgo").style.backgroundColor = "red";
+});
 
 document.getElementById("color").addEventListener("mouseover", function() {
     document.getElementById("color").style.backgroundColor = "red";

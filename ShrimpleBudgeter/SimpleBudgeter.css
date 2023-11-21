@@ -1,14 +1,65 @@
 body {
-    background-color: black;
+    background-color: maroon;
+    display: flex;
+    justify-content: center;
 }
 
 #income {
     background-color: gold;
     height: 100px;
     width: 500px;
+    font-family: serif;
+    font-weight: bold;
+}
+
+#food {
+    background-color: gold;
+    height: 50px;
+    width: 250px;
+    font-family: serif;
+    font-weight: bold;
+}
+
+#water {
+    background-color: gold;
+    height: 50px;
+    width: 250px;
+    font-family: serif;
+    font-weight: bold;
+}
+
+#rent {
+    background-color: gold;
+    height: 50px;
+    width: 250px;
+    font-family: serif;
+    font-weight: bold;
+}
+
+#electricty {
+    background-color: gold;
+    height: 50px;
+    width: 250px;
+    font-family: serif;
+    font-weight: bold;
+}
+
+#plumbing {
+    background-color: gold;
+    height: 50px;
+    width: 250px;
+    font-family: serif;
+    font-weight: bold;
+}
+
+#gas {
+    background-color: gold;
+    height: 50px;
+    width: 250px;
+    font-family: serif;
+    font-weight: bold;
 }
 
 ::placeholder {
     color: yellow;
   }  
-  

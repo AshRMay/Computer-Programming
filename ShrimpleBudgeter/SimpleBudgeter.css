@@ -1,7 +1,11 @@
 body {
-    background-color: maroon;
+    background-color: red;
     display: flex;
     justify-content: center;
+}
+
+.tip {
+    display: none;
 }
 
 #income {
@@ -53,6 +57,14 @@ body {
 }
 
 #gas {
+    background-color: gold;
+    height: 50px;
+    width: 250px;
+    font-family: serif;
+    font-weight: bold;
+}
+
+#results {
     background-color: gold;
     height: 50px;
     width: 250px;

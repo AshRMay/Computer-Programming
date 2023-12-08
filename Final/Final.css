@@ -1,0 +1,78 @@
+body {
+    background-color:black;
+}
+
+#title {
+    font-size: 50px;
+    animation-name: title;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+#desc {
+    animation-name: desc;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+#navbar {
+    height: 100px;
+    width: 1864px;
+    display: grid;
+    grid-template-columns: repeat(90, 1fr);
+    grid-template-rows: repeat(90, 1fr);
+    background-color: red;
+}
+
+
+@keyframes title{
+    0% {
+        color: purple;
+    }
+    16% {
+        color: red;
+    }
+    32% {
+        color: orange;
+    }
+    48% {
+        color: yellow;
+    }
+    64% {
+        color: green;
+    }
+    80% {
+        color: blue;
+    }
+    100% {
+        color: purple;
+    }
+}
+
+@keyframes desc{
+    0% {
+        color: purple;
+    }
+    16% {
+        color: red;
+    }
+    32% {
+        color: orange;
+    }
+    48% {
+        color: yellow;
+    }
+    64% {
+        color: green;
+    }
+    80% {
+        color: blue;
+    }
+    100% {
+        color: purple;
+    }
+}

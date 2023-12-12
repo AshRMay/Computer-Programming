@@ -20,12 +20,60 @@ body {
 }
 
 #navbar {
-    height: 100px;
+    height: 75px;
     width: 1864px;
     display: grid;
     grid-template-columns: repeat(90, 1fr);
     grid-template-rows: repeat(90, 1fr);
-    background-color: red;
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    animation-name: navbar;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+#aboutus {
+    grid-column: 1 / 30;
+    text-align: center;
+    padding-top: 4%;
+}
+#test {
+    grid-column: 30 / 60;
+    text-align: center;
+    padding-top: 3%;
+    animation-name: test;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    font-size: 35px;
+}
+
+#leaderboard{
+    grid-column: 60 / 90;
+    text-align: center;
+    padding-top: 4%;
+}
+
+#texts{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: red;
+}
+#info {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    animation-name: info;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+#phone{
+    text-align: center;
+}
+#phone2{
+    text-align: center;
 }
 
 
@@ -54,6 +102,78 @@ body {
 }
 
 @keyframes desc{
+    0% {
+        color: purple;
+    }
+    16% {
+        color: red;
+    }
+    32% {
+        color: orange;
+    }
+    48% {
+        color: yellow;
+    }
+    64% {
+        color: green;
+    }
+    80% {
+        color: blue;
+    }
+    100% {
+        color: purple;
+    }
+}
+
+@keyframes navbar{
+    0% {
+        background-color: purple;
+    }
+    16% {
+        background-color: red;
+    }
+    32% {
+        background-color: orange;
+    }
+    48% {
+        background-color: yellow;
+    }
+    64% {
+        background-color: green;
+    }
+    80% {
+        background-color: blue;
+    }
+    100% {
+        background-color: purple;
+    }
+}
+
+@keyframes test{
+    0% {
+        color: purple;
+    }
+    16% {
+        color: red;
+    }
+    32% {
+        color: orange;
+    }
+    48% {
+        color: yellow;
+    }
+    64% {
+        color: green;
+    }
+    80% {
+        color: blue;
+    }
+    100% {
+        color: purple;
+    }
+}
+
+@keyframes info{
     0% {
         color: purple;
     }

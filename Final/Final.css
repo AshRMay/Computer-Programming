@@ -74,6 +74,9 @@ body {
 }
 #phone2{
     text-align: center;
+    animation-name: phone;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
 }
 
 
@@ -174,6 +177,30 @@ body {
 }
 
 @keyframes info{
+    0% {
+        color: purple;
+    }
+    16% {
+        color: red;
+    }
+    32% {
+        color: orange;
+    }
+    48% {
+        color: yellow;
+    }
+    64% {
+        color: green;
+    }
+    80% {
+        color: blue;
+    }
+    100% {
+        color: purple;
+    }
+}
+
+@keyframes phone{
     0% {
         color: purple;
     }
